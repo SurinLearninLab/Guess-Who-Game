@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess Who?</title>
+        <script src="script.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body class="wrap">
+        <div class="header">
+            <div>
+                <img src="images/logo.png" alt="picture of the logo"/>
+            </div>
+            <div class="mystery-card">
+                <img class="mystery" src="images/characters_01.jpg" alt="picture of ?"/>
+                <span class="one">Sakura</span>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card ">
+                <img onclick="toggleEliminated(this)" src="images/characters_02.jpg" alt="picture of Kaede"/>
+                <span>Kaede</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_03.jpg" alt="picture of Aya"/>
+                <span>Aya</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_04.jpg" alt="picture of Yuuki"/>
+                <span>Yuuki</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_05.jpg" alt="picture of Mikoto"/>
+                <span>Mikoto</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_06.jpg" alt="picture of Ren"/>
+                <span>Ren</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_01.jpg" alt="picture of Sakura"/>
+                <span>Sakura</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_07.jpg" alt="picture of Ryo"/>
+                <span>Ryo</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_08.jpg" alt="picture of Yori"/>
+                <span>Yori</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_09.jpg" alt="picture of Hana"/>
+                <span>Hana</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_10.jpg" alt="picture of tatsuya"/>
+                <span>Tatsuya</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_11.jpg"  alt="picture of Taro"/>
+                <span>Taro</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_12.jpg" alt="picture of Mai"/>
+                <span>Mai</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_13.jpg" alt="picture of Emiko"/>
+                <span>Emiko</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_14.jpg" alt="picture of Ayumi"/>
+                <span>Ayumi</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_15.jpg" alt="picture of Hotaru"/>
+                <span>Hotaru</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_16.jpg" alt="picture of Haru"/>
+                <span>Haru</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_17.jpg" alt="picture of Kazuya"/>
+                <span>Kazuya</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_18.jpg" alt="picture of Akira"/>
+                <span>Akira</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_19.jpg" alt="picture of Saki"/>
+                <span>Saki</span>
+            </div>
+            <div class="card">
+                <img onclick="toggleEliminated(this)" src="images/characters_20.jpg" alt="picture of Kazuo"/>
+                <span>Kazuo</span>
+            </div>
+        </div>
+        <div class="instructions">
+            <h2>Instructions</h2>
+            <ol>
+                <li>Each player opens the application on their own device. A random Mystery Card will be assigned to you, which your opponent will have to guess.</li>
+                <li>Then, each player asks their opponent a “yes or no” question, such as “is your person a man?” or “does your person wear glasses?”, and the answer gets them closer to who's on their opponent's Mystery Card. Click on the cards that don't fit the criteria to fade them out, until there's only 1 person left. A correct guess makes that player the winner. If they guess incorrectly, that player loses the chance to ask questions and the game continues until one of the players guesses right or has only one card left.</li>
+                <li>Refresh the browser to restart the game.</li>
+            </ol>
+        </div>
+    </body>
+</html>
