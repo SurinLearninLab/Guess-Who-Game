@@ -19,83 +19,83 @@ function toggleEliminated(img) {
 cards = [
     {
         name:'Sakura',
-        image: 'characters_01.jpg'
+        image: 'gw-images\images\characters_01.jpg'
     },
     {
         name: 'Kaede',
-        image: 'characters_02.jpg'
+        image: 'gw-images\images\characters_02.jpg.'
     },
     {
         name: 'Aya',
-        image: 'characters_03.jpg'
+        image: 'gw-images\images\characters_03.jpg'
     },
     {
         name: 'Yuuki',
-        image: 'characters_04.jpg'
+        image: 'gw-images\images\characters_04.jpg'
     },
     {
         name: 'Mikoto',
-        image: 'characters_05.jpg'
+        image: 'gw-images\images\characters_05.jpg'
     },
     {
         name: 'Ren',
-        image: 'characters_06.jpg'
+        image: 'gw-images\images\characters_06.jpg'
     },
     {
         name: 'Ryo',
-        image: 'characters_07.jpg'
+        image: 'gw-images\images\characters_07.jpg'
     },
     {
         name: 'Yori',
-        image: 'characters_08.jpg'
+        image: 'gw-images\images\characters_08.jpg'
     },
     {
         name: 'Hana',
-        image: 'characters_09.jpg'
+        image: 'gw-images\images\characters_09.jpg'
     },
     {
         name: 'Tatsuya',
-        image: 'characters_10.jpg'
+        image: 'gw-images\images\characters_10.jpg'
     },
     {
         name: 'Taro',
-        image: 'characters_11.jpg'
+        image: 'gw-images\images\characters_11.jpg'
     },
     {
         name: 'Mai',
-        image: 'characters_12.jpg'
+        image: 'gw-images\images\characters_12.jpg'
     },
     {
         name: 'Emiko',
-        image: 'characters_13.jpg'
+        image: 'gw-images\images\characters_13.jpg'
     },
     {
         name: 'Ayumi',
-        image: 'characters_14.jpg'
+        image: 'gw-images\images\characters_14.jpg'
     },
     {
         name: 'Hotaru',
-        image: 'characters_15.jpg'
+        image: 'gw-images\images\characters_15.jpg'
     },
     {
         name: 'Haru',
-        image: 'characters_16.jpg'
+        image: 'gw-images\images\characters_16.jpg'
     },
     {
         name: 'Kazuya',
-        image: 'characters_17.jpg'
+        image: 'gw-images\images\characters_17.jpg'
     },
     {
         name: 'Akira',
-        image: 'characters_18.jpg'
+        image: 'gw-images\images\characters_18.jpg'
     },
     {
         name: 'Saki',
-        image: 'characters_19.jpg'
+        image: 'gw-images\images\characters_19.jpg'
     },
     {
         name: 'Kazuo',
-        image: 'characters_20.jpg'
+        image: 'gw-images\images\characters_20.jpg'
     }
 ]
 
@@ -135,10 +135,10 @@ function selectRandomCard() {
     let mysteryImg = document.querySelector('img.mystery')
     let imagePath
     if (randomIndex < 10) {
-      imagePath = 'images/characters_0' + (randomIndex + 1) + '.jpg'
+      imagePath = 'gw-images/images/characters_0' + (randomIndex + 1) + '.jpg'
     }
     else {
-      imagePath = 'images/characters_' + (randomIndex + 1) + '.jpg'
+      imagePath = 'gw-images/images/characters_' + (randomIndex + 1) + '.jpg'
     }
     mysteryImg.src = imagePath
     let mysteryName = document.querySelector('.mystery-card span')
