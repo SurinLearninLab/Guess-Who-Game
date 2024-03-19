@@ -1,7 +1,7 @@
 body {
     font-family: verdana;
     font-size: 15px;
-    background-color: saddlebrown;
+    background-color: azure;
 }
 
 .card {
@@ -14,10 +14,10 @@ body {
     cursor: pointer;
 }
 .card:hover {
-    transition: 550ms;
+    transition: 700ms;
     padding: 6px;
-    rotate: 15deg;
-    transform: scale(1.05);
+    rotate: 365deg;
+    transform: scale(1.50);
    
 }
 span {
@@ -25,13 +25,13 @@ span {
 }
 
 .one {
-    color: wheat;
+    color: black;
 }
 li {
-    color:wheat;
+    color:brown;
 }
 h2 {
-    color:rgb(239, 234, 234);
+    color:brown;
     text-align: center;
 }
 .header {
@@ -65,10 +65,14 @@ img {
     padding: 10px;
     background-color: white;
     border-radius: 100%;
+    /* border: solid darkgray; */
+    box-shadow: 10px 10px 20px black;
 }
 .instructions {
-    border: solid white 4px;
+    border: solid darkgray 4px;
     padding: 20px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 20px black;
 }
 .mystery-card {
     text-align: center;
