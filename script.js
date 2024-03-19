@@ -3,17 +3,6 @@ console.log('Guess Who?')
 function toggleEliminated(img) {
     img.classList.toggle("eliminated");
  }
-//  classList.toggle toggles the class 'eliminate' on the 'img' element
-
-// let allNames = document.querySelectorAll('span')
-// for (let i = 0; i < allNames.length; i++) {
-//     console.log(allNames[i].innerHTML)
-// }
-
-// let allImages = document.querySelectorAll('src')
-// for (let i = 0; i < allImages.length; i++) {
-//     console.log(allImages[i].innerHTML)
-// }
 
 
 cards = [
@@ -99,34 +88,7 @@ cards = [
     }
 ]
 
-// function selectRandomCard() {
-//     let randomIndex = Math.floor(Math.random() * 20)
-//     let randomCard = cards[randomIndex]
-//     let mysteryImg = document.querySelector('.mystery')
-//     let imagePath = 'images/charachters_01.jpg' 
-//     mysteryImg.src = imagePath 
-//     let mysteryName = document.querySelector('.mystery-card span')
-//     mysteryName.textContent = randomCard.name
-// }
-// selectRandomCard()
 
-// function selectRandomCard() {
-//     let randomIndex = Math.floor(Math.random() * 20)
-//     let randomCard = cards[randomIndex]
-//     let mysteryImg = document.querySelector('img.mystery')
-//     let imagePath
-//     if (randomIndex < 10) {
-//         let imagePath = 'images/characters_0' + (randomIndex + 1) + '.jpg'
-//     }
-//     else {
-//         let imagePath = 'images/characters_' + (randomIndex + 1) + '.jpg'
-//     }
-//     mysteryImg.src = imagePath
-//     let mysteryName = document.querySelector('.mystery-card span');
-//     mysteryName.textContent = randomCard.name
-//   }
-  
-//   selectRandomCard()
   
 
 function selectRandomCard() {
